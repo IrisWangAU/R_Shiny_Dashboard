@@ -1,0 +1,3 @@
+"0","total_pop_raw$state <- factor(total_pop_raw$state, levels = c(""NSW"",""VIC"",""QSL"",""WA"",""SA"",""ACT"",""NT"",""TAS""))"
+"0",""
+"0",""

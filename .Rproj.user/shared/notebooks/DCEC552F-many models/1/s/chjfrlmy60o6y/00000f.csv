@@ -1,0 +1,3 @@
+"0","gapminder2 <- gapminder::gapminder %>% mutate(year1952 = year - 1952)"
+"0","oz <- gapminder2 %>% filter (country == ""Australia"")"
+"0","oz"

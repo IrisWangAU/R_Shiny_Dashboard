@@ -1,0 +1,8 @@
+"0","# Plot the residuals "
+"0","p2 <- ggplot(data = oz_mod, aes(x=year, y=.std.resid))+"
+"0","  geom_hline(yintercept=0, color=""white"",size = 2)+"
+"0","  geom_line()+"
+"0","  labs(x=""Year"", y=""Residual"",title = ""Residual plot"")"
+"0",""
+"0","p2"
+"0",""

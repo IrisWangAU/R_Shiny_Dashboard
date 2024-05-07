@@ -1,0 +1,3 @@
+"0",""
+"0","total_pop_raw <- bind_rows(NSW_pop_raw, VIC_pop_raw, QSL_pop_raw, SA_pop_raw, WA_pop_raw, TAS_pop_raw, NT_pop_raw, ACT_pop_raw)"
+"0",""

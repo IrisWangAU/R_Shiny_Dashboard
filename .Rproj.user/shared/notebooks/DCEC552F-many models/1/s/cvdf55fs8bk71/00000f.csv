@@ -1,0 +1,3 @@
+"0","# filter for the estimated cooefficients in the fitted model of AUS"
+"0","country_coefs %>%"
+"0","  filter(country == ""Australia"")"

@@ -1,0 +1,7 @@
+"0","ggplot(country_fit,aes(x=r.squared))+"
+"0","  geom_histogram()+"
+"0","  labs(title = ""Distribution of R-squared from 142 linear models"","
+"0","       subtitle = ""Models of each country's life expectancy with year1952 as the explanatory variable"","
+"0","       x = ""R-squared"")"
+"2","`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+"

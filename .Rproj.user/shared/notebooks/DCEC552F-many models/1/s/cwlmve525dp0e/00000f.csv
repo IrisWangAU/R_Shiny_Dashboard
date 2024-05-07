@@ -1,0 +1,8 @@
+"0","# Fit model of life expectany using year1952 as explanatory variable"
+"0","oz_lm <- lm(lifeExp~year1952, data=oz)"
+"0",""
+"0","# load broom package"
+"0","library(broom)"
+"0",""
+"0","# Tidy output of fitted model"
+"0","tidy(oz_lm)"

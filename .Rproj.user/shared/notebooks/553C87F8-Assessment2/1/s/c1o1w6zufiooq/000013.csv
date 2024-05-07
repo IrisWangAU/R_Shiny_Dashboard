@@ -1,0 +1,13 @@
+"0","interstate_NSW_aug <- interstate_NSW %>%
+  mutate(e = residuals(interstate_NSW_rp))
+
+interstate_r2_NSW <- 1 - sum(interstate_NSW_aug$e^2)/sum((interstate_NSW$net_interstate-mean(oversea_NSW$net_interstate))^2)
+"
+"2","Warning:"
+"2"," Unknown or uninitialised column: `net_interstate`.
+"
+"2","Warning in mean.default(oversea_NSW$net_interstate) :"
+"2","
+ "
+"2"," 参数不是数值也不是逻辑值：回覆NA
+"

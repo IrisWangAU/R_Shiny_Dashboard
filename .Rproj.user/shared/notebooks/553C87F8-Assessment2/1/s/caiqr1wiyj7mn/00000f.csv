@@ -1,0 +1,23 @@
+"0","# get quarterly population by states and sex from Jun-1981 to Sep-2021"
+"0","header = colnames(read_xlsx(""data/estimated_population_by_sex.xlsx"", sheet = ""Data1""))"
+"1","[38;5;251mNew names:
+[36m•[38;5;251m [38;5;251m``[38;5;251m -> [38;5;251m`...1`[38;5;251m[39m
+"
+"0","pop_state_sex <- read_xlsx(""data/estimated_population_by_sex.xlsx"","
+"0","                           sheet = ""Data1"", range = cell_limits(c(11,1)),"
+"0","                           col_names = header) %>%"
+"0","  rename(Quarter = `...1`) %>%"
+"0","  mutate(Quarter = ymd(Quarter))"
+"0",""
+"0","# get quarterly population change on natural increase, oversea immigration and interstate immigration"
+"0",""
+"0","header1 = colnames(read_xlsx(""data/au_population_change_by_state.xlsx"", sheet = ""Data1""))"
+"1","[38;5;251mNew names:
+[36m•[38;5;251m [38;5;251m``[38;5;251m -> [38;5;251m`...1`[38;5;251m[39m
+"
+"0","state_pop_change <- read_xlsx(""data/au_population_change_by_state.xlsx"", "
+"0","                       sheet = ""Data1"",range = cell_limits(c(11,1)),"
+"0","                       col_names = header1) %>%"
+"0","  rename(Quarter = `...1`) %>%"
+"0","  mutate(Quarter = ymd(Quarter))"
+"0",""

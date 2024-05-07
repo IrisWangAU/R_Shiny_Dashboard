@@ -1,0 +1,4 @@
+"0",""
+"0","ggplot(oversea_fit,aes(x=state, y=r.squared))+"
+"0","  geom_bar(stat = ""identity"")+"
+"0","  labs(title = ""Goodness-of-fit for net oversea immigration of AU states"")"
